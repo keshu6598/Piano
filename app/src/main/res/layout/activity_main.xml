@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.user.piano.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:weightSum="1">
+
+            <Button
+            android:layout_height="290dp"
+            android:layout_width="wrap_content"
+            android:background="#000000"
+            android:id="@+id/bt1"
+            android:layout_gravity="bottom"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+
+            android:weightSum="1">
+            <Button
+            android:layout_height="290dp"
+                android:id="@+id/bt2"
+                android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:background="#FFFFFF"
+            android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:weightSum="1"><Button
+            android:layout_height="290dp"
+            android:layout_width="wrap_content"
+            android:background="#000000"
+            android:layout_gravity="bottom"
+            android:id="@+id/bt3"
+            android:layout_weight="1" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            ><Button
+            android:id="@+id/bt4"
+            android:layout_gravity="bottom"
+            android:layout_height="290dp"
+            android:layout_width="wrap_content"
+            android:background="#FFFFFF"
+            />
+        </LinearLayout> <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        ><Button
+        android:layout_width="wrap_content"
+        android:background="#000000"
+        android:layout_height="290dp"
+        android:layout_gravity="bottom"
+        android:id="@+id/bt5"
+        />
+    </LinearLayout>
+        <LinearLayout
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+
+            android:layout_weight="1"
+            ><Button
+            android:layout_gravity="bottom"
+            android:layout_height="290dp"
+            android:id="@+id/bt6"
+            android:layout_width="wrap_content"
+            android:background="#FFFFFF"
+            />
+        </LinearLayout> <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        ><Button
+        android:layout_height="290dp"
+        android:id="@+id/bt7"
+        android:layout_width="wrap_content"
+        android:background="#000000"
+        android:layout_gravity="bottom"
+
+        />
+    </LinearLayout>
+        <LinearLayout
+
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            ><Button
+            android:id="@+id/bt8"
+            android:layout_height="290dp"
+            android:layout_gravity="bottom"
+            android:layout_width="wrap_content"
+            android:background="#FFFFFF"
+            />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>
